@@ -1,0 +1,190 @@
+.mySlides {
+    display: none;
+}
+
+.mySlides2 {
+    display: none;
+}
+
+.top {
+    /* border: solid red; */
+    font-size: 3rem;
+    /* color: #414143 */
+}
+
+.highlight {
+    color: #227fc5;
+    font-weight: bold;
+}
+
+#intro {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 10vh;
+}
+
+#intro li {
+    margin-top: 30px;
+}
+
+#portofolio {
+    padding: 32px;
+}
+
+#portofolio h2 {
+    font-size: 35px;
+}
+
+#about {
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+#about h2:first-child {
+    font-size: 35px;
+    /* margin-bottom: 40px; */
+    padding-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 22vw;
+    height: 30vh;
+}
+
+.service p {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 4vh;
+}
+
+.service i {
+    font-size: 40px;
+    color: #227fc5;
+
+}
+
+.service h2 {
+    margin: 0;
+    margin-top: 2vh;
+}
+
+#footer form label,
+#footer h3,
+#footer p {
+    font-size: 1rem;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+article p {
+    margin: 0;
+}
+
+article hr {
+    margin: 1rem;
+}
+
+article .icons {
+    margin: 0px;
+    margin-top: 2rem;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+article .icons i:nth-child(1) {
+    color: #e86229;
+}
+
+article .icons i:nth-child(2) {
+    color: #26a5dc
+}
+
+article .icons i:nth-child(3) {
+    color: #f8c427
+}
+
+article .icons i:nth-child(4) {
+    color: #6b7db1
+}
+
+@media only screen and (max-width: 767px) {
+    .top {
+        font-size: 1.8rem;
+    }
+
+    #intro {
+        padding-bottom: 25vh;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 80vw;
+        height: 27vh;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #intro {
+        padding-bottom: 20vh;
+    }
+
+    .service {
+        /* width: 80vw; */
+        height: 20vh;
+    }
+
+    .service p {
+        margin: 1vh;
+        padding: 0;
+        line-height: 2vh;
+    }
+
+    .service i {
+        font-size: 40px;
+        color: #227fc5;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1036px) {
+    .top {
+        font-size: 3.5rem;
+    }
+
+    #intro {
+        padding-bottom: 35vh;
+    }
+
+    .service {
+        height: 12vh;
+    }
+
+    .service p {
+        margin: 1vh;
+        padding: 0;
+        line-height: 2vh;
+    }
+
+    .service i {
+        font-size: 40px;
+        color: #227fc5;
+    }
+}
